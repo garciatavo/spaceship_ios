@@ -19,6 +19,7 @@ class GameScene: SKScene {
         
         spaceship.position = CGPoint(x: self.size.width * 0.15, y: self.size.height * 0.15)
         spaceship.setScale(0.1)
+        spaceship.anchorPoint = CGPoint(x: 0.5, y: 0.5)
         spaceship.zPosition = 5
         spaceship.name = "spaceship"
         addChild(spaceship)
