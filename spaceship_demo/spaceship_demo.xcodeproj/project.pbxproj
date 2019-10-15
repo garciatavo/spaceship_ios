@@ -27,6 +27,8 @@
 		F2027AAD23550E1D000FFD72 /* gameOverSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F2027AA923550E1D000FFD72 /* gameOverSound.mp3 */; };
 		F2027AAE23550E1D000FFD72 /* laserBeamSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F2027AAA23550E1D000FFD72 /* laserBeamSound.mp3 */; };
 		F2027AAF23550E1D000FFD72 /* spaceshipGameBackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F2027AAB23550E1D000FFD72 /* spaceshipGameBackgroundMusic.mp3 */; };
+		F2E0F8A123563CF70098A81F /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E0F8A023563CF70098A81F /* bg.png */; };
+		F2E0F8A3235641F10098A81F /* engineExhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = F2E0F8A2235641F00098A81F /* engineExhaust.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		F2027AA923550E1D000FFD72 /* gameOverSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameOverSound.mp3; sourceTree = "<group>"; };
 		F2027AAA23550E1D000FFD72 /* laserBeamSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = laserBeamSound.mp3; sourceTree = "<group>"; };
 		F2027AAB23550E1D000FFD72 /* spaceshipGameBackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = spaceshipGameBackgroundMusic.mp3; sourceTree = "<group>"; };
+		F2E0F8A023563CF70098A81F /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		F2E0F8A2235641F00098A81F /* engineExhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = engineExhaust.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		F2027A7D23550361000FFD72 /* spaceship_demo */ = {
 			isa = PBXGroup;
 			children = (
+				F2E0F8A2235641F00098A81F /* engineExhaust.sks */,
 				F2027A7E23550361000FFD72 /* AppDelegate.swift */,
 				F2027A8023550361000FFD72 /* GameScene.sks */,
 				F2027A8223550361000FFD72 /* Actions.sks */,
@@ -102,6 +107,7 @@
 		F2027A9623550DB6000FFD72 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F2E0F8A023563CF70098A81F /* bg.png */,
 				F2027A9D23550DF6000FFD72 /* gameOver.png */,
 				F2027A9923550DF5000FFD72 /* laserBeam.png */,
 				F2027A9A23550DF5000FFD72 /* mainMenu.png */,
@@ -185,6 +191,7 @@
 			files = (
 				F2027AA023550DF6000FFD72 /* spaceship.png in Resources */,
 				F2027AA323550DF6000FFD72 /* spark.png in Resources */,
+				F2E0F8A123563CF70098A81F /* bg.png in Resources */,
 				F2027AA423550DF6000FFD72 /* UFO.png in Resources */,
 				F2027AAD23550E1D000FFD72 /* gameOverSound.mp3 in Resources */,
 				F2027AA223550DF6000FFD72 /* mainMenu.png in Resources */,
@@ -192,6 +199,7 @@
 				F2027A8A23550361000FFD72 /* Main.storyboard in Resources */,
 				F2027AA123550DF6000FFD72 /* laserBeam.png in Resources */,
 				F2027AAC23550E1D000FFD72 /* explosionSound.mp3 in Resources */,
+				F2E0F8A3235641F10098A81F /* engineExhaust.sks in Resources */,
 				F2027AA723550DF6000FFD72 /* shootButton.png in Resources */,
 				F2027A8123550361000FFD72 /* GameScene.sks in Resources */,
 				F2027AAF23550E1D000FFD72 /* spaceshipGameBackgroundMusic.mp3 in Resources */,
