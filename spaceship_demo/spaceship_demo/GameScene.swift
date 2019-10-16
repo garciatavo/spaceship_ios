@@ -46,7 +46,17 @@ class GameScene: SKScene {
     override func didMove(to view: SKView) {
         
         backgroundColor = SKColor.blue
-
+        
+        livesLabel.text = "Lives: \(lives)"
+        livesLabel.fontColor = SKColor.white
+        livesLabel.fontSize = 75
+        livesLabel.zPosition = 10
+        livesLabel.horizontalAlignmentMode = .center
+        livesLabel.verticalAlignmentMode = .center
+        livesLabel.position = CGPoint(x: self.size.width / 2, y: self.size.height - 100)
+        addChild(livesLabel)
+                
+    
         spaceship.position = CGPoint(x: self.size.width * 0.2, y: self.size.height * 0.15)
         spaceship.setScale(0.1)
         spaceship.anchorPoint = CGPoint(x: 0.5, y: 0.5)
@@ -127,7 +137,7 @@ class GameScene: SKScene {
     }
 
     override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+        livesLabel.text = "Lives: \(lives)"
     }
     
     override func didEvaluateActions() {
@@ -215,6 +225,8 @@ class GameScene: SKScene {
         
         spaceship.run(SKAction.sequence([blinkAction, setHidden]))
         run(explosionSound)
+        
+        lives = lives - 1
     }
     
     func shootLaserBeam(){
